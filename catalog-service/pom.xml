@@ -89,6 +89,11 @@
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.5.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -133,6 +138,34 @@
                         <includeOnlyProperty>^git.commit.message.full</includeOnlyProperty>
                     </includeOnlyProperties>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>com.diffplug.spotless</groupId>
+                <artifactId>spotless-maven-plugin</artifactId>
+                <version>2.43.0</version>
+                <configuration>
+                    <!-- optional: limit format enforcement to just the files changed by this feature branch -->
+                    <ratchetFrom>origin/main</ratchetFrom>
+
+                    <java>
+                        <googleJavaFormat>
+                            <version>1.22.0</version>
+                            <style>AOSP</style>
+                            <reflowLongStrings>true</reflowLongStrings>
+                            <formatJavadoc>false</formatJavadoc>
+                        </googleJavaFormat>
+
+                    </java>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
