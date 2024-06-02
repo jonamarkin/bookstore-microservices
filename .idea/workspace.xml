@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82483984-6848-43e5-8d3d-dd3705de8fe7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/db/migration/V1__create_products_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/db/migration/V2__add_books_data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +128,7 @@
       <workItem from="1717078456450" duration="4072000" />
       <workItem from="1717082991780" duration="2764000" />
       <workItem from="1717342391170" duration="68000" />
-      <workItem from="1717342476260" duration="971000" />
+      <workItem from="1717342476260" duration="1326000" />
     </task>
     <servers />
   </component>
