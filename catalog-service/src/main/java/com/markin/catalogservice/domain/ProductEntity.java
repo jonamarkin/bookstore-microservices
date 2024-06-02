@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "products")
+@Table(name = "tb_products")
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
