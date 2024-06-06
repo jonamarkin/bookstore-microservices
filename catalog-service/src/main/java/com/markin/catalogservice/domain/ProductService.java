@@ -1,5 +1,6 @@
 package com.markin.catalogservice.domain;
 
+import com.markin.catalogservice.ApplicationProperties;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -14,16 +15,17 @@ import java.util.List;
 public class ProductService {
 
     private final ProductRepository productRepository;
+    private final ApplicationProperties applicationProperties;
 
-
-    public ProductService(ProductRepository productRepository) {
+    public ProductService(ProductRepository productRepository, ApplicationProperties applicationProperties) {
         this.productRepository = productRepository;
+        this.applicationProperties = applicationProperties;
     }
 
     public PagedResult<Product> getProducts(int pageNo){
         Sort sort = Sort.by("name").ascending();
         pageNo = pageNo <=1 ? 0 : pageNo-1;
-        Pageable pageable = PageRequest.of(pageNo, 10);
+        Pageable pageable = PageRequest.of(pageNo, applicationProperties.pageSize(), sort);
         Page<Product> productsPage =  productRepository.findAll(pageable).map(ProductMapper::toProduct);
 
         return new PagedResult<>(
