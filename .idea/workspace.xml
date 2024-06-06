@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82483984-6848-43e5-8d3d-dd3705de8fe7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/markin/catalogservice/AbstractIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/markin/catalogservice/web/controllers/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/markin/catalogservice/domain/ProductRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/markin/catalogservice/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/markin/catalogservice/CatalogServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/markin/catalogservice/web/controllers/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/markin/catalogservice/web/controllers/ProductControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/resources/test-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/resources/test-data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.CatalogServiceApplicationTests.executor": "Run",
+    "JUnit.ProductControllerTest.shouldReturnProducts.executor": "Run",
+    "JUnit.ProductRepositoryTest.executor": "Run",
     "Maven.catalog-service [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -77,10 +79,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.markin.catalogservice.domain" />
       <recent name="com.markin.catalogservice.web.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CatalogServiceApplicationTests">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest">
     <configuration name="CatalogServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog-service" />
       <extension name="coverage">
@@ -91,6 +94,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.markin.catalogservice" />
       <option name="MAIN_CLASS_NAME" value="com.markin.catalogservice.CatalogServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.shouldReturnProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.markin.catalogservice.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.markin.catalogservice.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.markin.catalogservice.web.controllers.ProductControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catalog-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.markin.catalogservice.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.markin.catalogservice.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.markin.catalogservice.domain.ProductRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,6 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest" />
+        <item itemvalue="JUnit.ProductControllerTest.shouldReturnProducts" />
         <item itemvalue="JUnit.CatalogServiceApplicationTests" />
         <item itemvalue="Spring Boot.TestCatalogServiceApplication" />
       </list>
@@ -149,7 +185,7 @@
       <workItem from="1717342391170" duration="68000" />
       <workItem from="1717342476260" duration="8282000" />
       <workItem from="1717680660599" duration="623000" />
-      <workItem from="1717689336811" duration="2227000" />
+      <workItem from="1717689336811" duration="3787000" />
     </task>
     <servers />
   </component>
