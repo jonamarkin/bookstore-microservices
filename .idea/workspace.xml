@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82483984-6848-43e5-8d3d-dd3705de8fe7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/markin/catalogservice/web/exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +185,7 @@
       <workItem from="1717342391170" duration="68000" />
       <workItem from="1717342476260" duration="8282000" />
       <workItem from="1717680660599" duration="623000" />
-      <workItem from="1717689336811" duration="5227000" />
+      <workItem from="1717689336811" duration="5836000" />
     </task>
     <servers />
   </component>
