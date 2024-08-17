@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82483984-6848-43e5-8d3d-dd3705de8fe7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/markin/catalogservice/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/markin/catalogservice/CatalogServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +207,13 @@
       <workItem from="1717680660599" duration="623000" />
       <workItem from="1717689336811" duration="5836000" />
       <workItem from="1717874885983" duration="1083000" />
-      <workItem from="1719066890694" duration="3738000" />
+      <workItem from="1719066890694" duration="4513000" />
+      <workItem from="1719991461163" duration="599000" />
+      <workItem from="1721646335188" duration="594000" />
+      <workItem from="1721854274889" duration="670000" />
+      <workItem from="1722193173354" duration="918000" />
+      <workItem from="1723886752300" duration="606000" />
+      <workItem from="1723891971893" duration="1896000" />
     </task>
     <servers />
   </component>
