@@ -49,8 +49,6 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
-    volumes:
-      - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
     healthcheck:
       test: rabbitmq-diagnostics check_port_connectivity
       interval: 30s
