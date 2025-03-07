@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="postgres@localhost">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.51">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1"/>
     <database id="2" parent="1" name="postgres">
       <Comment>default administrative connection database</Comment>
@@ -3440,11 +3440,11 @@
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="264" parent="263" name="seq_product_id">
-      <DasType>bigint|0s</DasType>
       <ObjectId>16397</ObjectId>
       <SequenceIdentity>1+50</SequenceIdentity>
       <StartValue>1</StartValue>
       <StateNumber>744</StateNumber>
+      <StoredType>bigint|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="265" parent="263" name="flyway_schema_history">
@@ -3460,72 +3460,72 @@
       <OwnerName>postgres</OwnerName>
     </table>
     <column id="267" parent="265" name="installed_rank">
-      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <column id="268" parent="265" name="version">
-      <DasType>varchar(50)|0s</DasType>
       <Position>2</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>varchar(50)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="269" parent="265" name="description">
-      <DasType>varchar(200)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>varchar(200)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="270" parent="265" name="type">
-      <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>varchar(20)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="271" parent="265" name="script">
-      <DasType>varchar(1000)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>varchar(1000)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="272" parent="265" name="checksum">
-      <DasType>integer|0s</DasType>
       <Position>6</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <column id="273" parent="265" name="installed_by">
-      <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>varchar(100)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="274" parent="265" name="installed_on">
-      <DasType>timestamp|0s</DasType>
       <DefaultExpression>now()</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>8</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>timestamp|0s</StoredType>
       <TypeId>1114</TypeId>
     </column>
     <column id="275" parent="265" name="execution_time">
-      <DasType>integer|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <column id="276" parent="265" name="success">
-      <DasType>boolean|0s</DasType>
       <NotNull>1</NotNull>
       <Position>10</Position>
       <StateNumber>743</StateNumber>
+      <StoredType>boolean|0s</StoredType>
       <TypeId>16</TypeId>
     </column>
     <index id="277" parent="265" name="flyway_schema_history_pk">
@@ -3549,44 +3549,44 @@
       <UnderlyingIndexId>16394</UnderlyingIndexId>
     </key>
     <column id="280" parent="266" name="id">
-      <DasType>bigint|0s</DasType>
       <DefaultExpression>nextval(&apos;seq_product_id&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>744</StateNumber>
+      <StoredType>bigint|0s</StoredType>
       <TypeId>20</TypeId>
     </column>
     <column id="281" parent="266" name="code">
-      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StateNumber>744</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="282" parent="266" name="name">
-      <DasType>text|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
       <StateNumber>744</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="283" parent="266" name="description">
-      <DasType>text|0s</DasType>
       <Position>4</Position>
       <StateNumber>744</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="284" parent="266" name="image_url">
-      <DasType>text|0s</DasType>
       <Position>5</Position>
       <StateNumber>744</StateNumber>
+      <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="285" parent="266" name="price">
-      <DasType>numeric|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
       <StateNumber>744</StateNumber>
+      <StoredType>numeric|0s</StoredType>
       <TypeId>1700</TypeId>
     </column>
     <index id="286" parent="266" name="tb_products_pkey">
