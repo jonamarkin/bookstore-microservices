@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82483984-6848-43e5-8d3d-dd3705de8fe7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/order-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/markin/orderservice/AbstractIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75498253-5257-4e6a-bad8-fd2b0a8fc261.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75498253-5257-4e6a-bad8-fd2b0a8fc261.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/order-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taskfile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Taskfile.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/markin/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/markin/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/markin/orderservice/OrderServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/test/java/com/markin/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +229,7 @@
       <workItem from="1740426827656" duration="2952000" />
       <workItem from="1741035562360" duration="800000" />
       <workItem from="1741292249246" duration="4588000" />
-      <workItem from="1741360294830" duration="894000" />
+      <workItem from="1741360294830" duration="1744000" />
     </task>
     <servers />
   </component>
