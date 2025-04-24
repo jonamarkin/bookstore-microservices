@@ -7,7 +7,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @ConfigurationPropertiesScan
 @SpringBootApplication
-@EnableConfigurationProperties(ApplicationProperties.class)
 public class OrderServiceApplication {
 
 	public static void main(String[] args) {
