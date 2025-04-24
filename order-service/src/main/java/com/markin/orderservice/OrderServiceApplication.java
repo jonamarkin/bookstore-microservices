@@ -14,7 +14,7 @@ public class OrderServiceApplication {
 
 		SpringApplication.run(OrderServiceApplication.class, args);
 
-		System.out.println("Hello  world");
+		System.out.println("Hello  world yeah");
 	}
 
 }
