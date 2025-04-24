@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82483984-6848-43e5-8d3d-dd3705de8fe7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Taskfile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Taskfile.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/markin/orderservice/ApplicationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/markin/orderservice/ApplicationProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/markin/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/markin/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/markin/orderservice/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/markin/orderservice/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +30,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -62,6 +71,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.CatalogServiceApplication.executor": "Run",
+    "Spring Boot.OrderServiceApplication.executor": "Run",
     "Spring Boot.TestCatalogServiceApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -96,7 +106,7 @@
       <recent name="com.markin.catalogservice.web.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CatalogServiceApplicationTests">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="All in catalog-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog-service" />
       <option name="PACKAGE_NAME" value="" />
@@ -230,7 +240,12 @@
       <workItem from="1741035562360" duration="800000" />
       <workItem from="1741292249246" duration="4588000" />
       <workItem from="1741360294830" duration="4858000" />
-      <workItem from="1741366453986" duration="4152000" />
+      <workItem from="1741366453986" duration="4199000" />
+      <workItem from="1741457108612" duration="21000" />
+      <workItem from="1745321595337" duration="1385000" />
+      <workItem from="1745494652198" duration="781000" />
+      <workItem from="1745496937764" duration="3619000" />
+      <workItem from="1745507699340" duration="4844000" />
     </task>
     <servers />
   </component>

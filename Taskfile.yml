@@ -40,6 +40,11 @@ tasks:
       - task: sleep
       - task: start_infra
 
+  reset_infra:
+    cmds:
+      - "docker compose -f {{.INFRA_DC_FILE}} down -v"
+      - task: sleep
+      - "docker compose -f {{.INFRA_DC_FILE}} up -d"
 
   start:
     deps: [build]
