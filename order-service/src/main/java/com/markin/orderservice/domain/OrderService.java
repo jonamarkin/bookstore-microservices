@@ -1,15 +1,13 @@
 package com.markin.orderservice.domain;
 
-import com.markin.orderservice.domain.models.CreateOrderResponse;
-import com.markin.orderservice.domain.models.CreateOrderRequest;
-import com.markin.orderservice.domain.models.OrderCreatedEvent;
-import com.markin.orderservice.domain.models.OrderStatus;
+import com.markin.orderservice.domain.models.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -37,6 +35,16 @@ public class OrderService {
         OrderCreatedEvent orderCreatedEvent = OrderEventMapper.buildOrderCreatedEvent(savedOrder);
         orderEventService.save(orderCreatedEvent);
         return new CreateOrderResponse(savedOrder.getOrderNumber());
+    }
+
+    public List<OrderSummary> findOrders(String userName) {
+        return orderRepository.findByUserName(userName);
+    }
+
+    public Optional<OrderDTO> findUserOrder(String userName, String orderNumber) {
+        return orderRepository
+                .findByUserNameAndOrderNumber(userName, orderNumber)
+                .map(OrderMapper::convertToDTO);
     }
 
     public void processNewOrders() {

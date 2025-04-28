@@ -29,6 +29,7 @@
 	<properties>
 		<java.version>21</java.version>
 		<dockerImageName>atomarkin/bookstore-${project.artifactId}</dockerImageName>
+		<spottless-maven-plugin.version>2.43.0</spottless-maven-plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>

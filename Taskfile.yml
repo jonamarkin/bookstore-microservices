@@ -58,9 +58,9 @@ tasks:
 
   restart:
     cmds:
-      - task: stop_infra
+      - task: stop
       - task: sleep
-      - task: start_infra
+      - task: start
 
   sleep:
     vars:
